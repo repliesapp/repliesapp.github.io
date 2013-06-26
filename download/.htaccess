@@ -1,0 +1,4 @@
+#AuthName "Replies Download"
+#AuthType Basic
+#AuthUserFile /home/repliesapp/site/passwd/apacheusers
+#require valid-user

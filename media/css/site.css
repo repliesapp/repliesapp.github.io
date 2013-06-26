@@ -1,0 +1,474 @@
+/* @override http://localhost:8080/media/css/site.css */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    -webkit-line-break: after-white-space;
+    -webkit-nbsp-mode: space;
+    -webkit-user-modify: read-only;
+    color: #3c3c3c;
+    background-color: #f1f1f1;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.header .content .footer {
+    text-shadow: #ffffff 0px 1px 0px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Droid Sans', arial, serif;
+}
+
+/* new clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+#nav {
+    float: right;
+    display: inline;
+    width: 250px;
+    text-align: right;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    font-size: 80%;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 26px;
+}
+
+#nav li a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #224466;
+}
+
+#nav li a:hover {
+    text-decoration: underline;
+    color: #224466;
+}
+
+#nav li a:visited {
+    text-decoration: none;
+    color: #224466;
+}
+
+body.home a.navhome {
+    display:none;
+}
+
+.header {
+    height: 90px;
+}
+
+.header h1 {
+    width: auto;
+    float: left;
+    font-size: 110%;
+    margin-top: 23px;
+    color: #224466;
+    font-variant: small-caps;
+}
+
+.header .icon {
+    background: url(../images/RepliesIcon-64x64.png) no-repeat;
+    float: left;
+	margin-top: 3px;
+    margin-right: 15px;
+    width: 64px;
+    height: 64px;
+}
+
+
+.constrainer {
+    margin: 0px auto;
+    width: 980px;
+}
+
+.bg {
+	z-index: 0;
+	width: 100%;
+	position: absolute;
+    height: 520px;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.04, #002e45),
+        color-stop(1, #0082b7)
+    ) !important;
+    background: -moz-linear-gradient(top, #0082b7, #002e45);
+    background-color: #0082b7;    
+}
+
+.container {
+	position: relative;
+    height: 520px;
+    margin-top: -20px;
+
+    color: white !important;
+    text-shadow: #000 0 1px 0;
+    -webkit-box-shadow: 0px 0px 2px #333;
+    z-index: 1;
+}
+
+#mycontent {
+    height: 1030px;
+}
+
+.container a, a:visited {
+    color: white;
+}
+
+.container h1 {
+    padding-top: 50px;
+    margin-top: -20px;
+}
+
+.intro {
+    list-style-image: none;
+    margin-left: 480px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.intro p {
+    font-size: 1.2em;
+	font-family: 'Droid Sans', arial, serif;
+}
+
+.intro strong {
+	font-weight: normal;
+}
+
+.left {
+    float: left;
+    width: 280px;
+    margin-right: 58px;
+}
+
+.savetimeimg {
+    background-image: url(../images/savetime.png);
+    height: 228px;
+    width: 280px;
+}
+
+.middle {
+    float: left;
+    width: 280px;
+    margin-right: 40px;
+}
+
+.stayinformedimg {
+    height: 228px;
+    width: 280px;
+    background-image: url(../images/conversations.png);
+}
+
+.right {
+    float: right;
+    width: 280px;
+}
+
+.relaiminboximg {
+    height: 228px;
+    width: 280px;
+    background: url(../images/inboxzero.png) no-repeat;
+}
+
+.signup {
+    text-align: left;
+	width:470px;
+	min-height: 120px;
+	text-shadow: #ffffff 0px 1px 0px;
+	color: #3c3c3c;
+	
+	background: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.04, orange),
+		color-stop(1, #fae027)
+	);
+	background: -moz-linear-gradient(top, #fae027, orange);
+	background-color: #fae027;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-top: 1px solid rgba(255,254,255,0.8);
+	border-bottom:0px solid rgba(255,254,255,0.5);;
+	padding: 15px;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.signup form {
+}
+
+div.signup h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#signup_email {
+    width: 445px;
+    font-size: 1em !important;
+    padding: 5px !important;
+    color: #3c3c3c;
+}
+
+#signup_submit {
+    margin: 0px;
+    border-radius: 8px;
+    font-size: 1.0em;
+    width: 120px;
+    margin-top: 15px;
+}
+
+.privacy {
+    text-shadow: none;
+
+    font-size: 80%;
+    margin-left: 10px;
+    text-align: right;
+    color: #224466;
+}
+
+.privacy a, .privacy a:visited, .privacy a:hover {
+    color: #224466;
+    text-decoration: underline;
+}
+
+.mainimage {
+    height: 365px;
+    width: 457px;
+    background: url(../images/supportheros4.png) no-repeat;
+    float: left;
+    margin-top: 22px;
+    margin-bottom:70px;
+}
+
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 60%;
+    color: darkgray;
+    padding: 10px;
+    color: #868686;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer a:visited {
+    color: #868686;
+}
+
+.leftimage {         
+    margin-top:20px;
+    float: left;
+    position: relative;
+    display: inline;
+}
+
+.righttext {
+    float: right;
+    text-align: left;
+    width: 460px;
+    text-align: left;
+}
+
+.lefttext {
+    width: 460px;
+    float: left;
+}
+
+.lefttext h2 {
+    margin-top: 0px;
+    font-size: 140%;
+    margin-bottom: 5px;
+}
+
+.benefittext {
+    margin-top: 0px;
+    text-align: justify;
+    margin-bottom:20px;
+    font-size: 80%;
+}
+
+.alpha {
+    text-align: justify;
+    font-size: 100%;
+    margin-right:3px;
+}
+
+#fancybox-content > div {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.idlefield.hasdefault {
+    color: darkgray !important;
+}  
+
+.below {
+    text-shadow: #ffffff 0px 1px 0px;
+    color: #3c3c3c !important;
+}
+
+.leftheader a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight:bold;
+}
+
+
+@-moz-document url-prefix() {
+	.footer {
+		margin-top:50px;
+	}
+
+	.signup {
+		margin-top:-7px;
+	}
+}
+
+.calltoaction {
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.calltoaction .last-button, .calltoaction .last-button * {
+    margin-right: 0px;
+}
+
+.quote .signature {
+    font-size: 70%;
+    color: #a9a9a9;
+    font-weight: bold;
+    margin-top: -15px;
+    text-align: right;
+    right:0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.quotes {
+    float: right;
+    width: 300px;
+}
+
+.quote {
+    padding: 5px;
+}
+
+.quote .signature a, .quote .signature a:visited {
+    color:#a9a9a9;
+    text-decoration: none;
+}
+
+.quote .signature a:hover {
+    text-decoration: underline;
+    background-color: #f1f1f1 !;
+}
+
+.quote, .quote *, .quote a:visited {
+    text-shadow: #ffffff 0px 1px 0px !important;
+    color: #3c3c3c !important;
+}
+
+.below .quote.boxed {
+    background-color: #d6d6d6;
+}
+
+@-moz-document url-prefix() {
+ .footer {
+    margin-top:50px;
+ }
+
+ .signup {
+    margin-top:-7px;
+ }
+}
+
+.header {
+    *height: 73px;
+}
+
+.footer {
+    *margin-top: 0px;
+    *padding-top: 0px;
+}
+
+#mycontent {
+    -height: 1060px;
+}
+
+.clearfix {
+    *margin: 0px;
+    *padding: 0px;
+    *height: 1px;
+    *font-size: 1px;
+}
+
+.signup {
+    -padding-bottom: 1px;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = '#fae027', endColorstr = '#FF8040');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fae027',  endColorstr = '#FF8040' ) "; * padding-left : 20 px;
+    padding-left /*\**/: 20 px\9;
+    /*border-radius: 8px;*/
+
+    -background-color: #224466;
+}
+
+.below {
+    *margin-top: 100px;
+    -margin-top: 60px;
+    *margin-bottom: 0px;
+    text-align: left;
+
+    *height: 300px;
+}
+
+.bg {
+    -height: 510px;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = '#597ca5', endColorstr = '#224466');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#597ca5',  endColorstr = '#224466' ) ";
+}
+
+#requestResult {
+    color: green;
+    text-shadow: none;
+}
+
+#requestResult.error, #requestResult .error {
+    color: red;
+}
+
+.below {
+    position: relative;
+}
